@@ -1,0 +1,29 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header_area {
+        height: 70px;
+        padding: 0 30px;
+    }
+    .navbar-toggler {
+        border: 2px solid #fff;
+        margin: 18px 0;
+    }
+    .navbar-toggler span {
+        color: #fff;
+    }
+    #fancyNav {
+        background: #7450fe;
+        background: -webkit-linear-gradient(to right, #7450fe, #21d397);
+        background: -webkit-linear-gradient(left, #7450fe, #21d397);
+        background: linear-gradient(to right, #7450fe, #21d397);
+        padding: 15px;
+        border-radius: 0 0 3px 3px;
+        margin-top: -2px;
+    }
+}
